@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الألعاب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- الصفحة الرئيسية -->
+    <header class="header">
+        <div class="logo">
+            <h1>منصة الألعاب</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="mj.html">المتجر</a></li>
+                <li><a href="game.html">الألعاب</a></li>
+                <li><a href="chat.html">الدردشة</a></li>
+                <li><a href="nuse.html">الأخبار</a></li>
+                <li><a href="ft.html" class="login-btn">تسجيل الدخول</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- محرك البحث -->
+    <section class="search-section">
+        <input type="text" id="search-bar" placeholder="ابحث عن ألعاب أو أخبار..." />
+        <button onclick="searchContent()">بحث</button>
+    </section>
+
+    <!-- إضافة لعبة جديدة -->
+    <section class="add-game">
+        <h2>إضافة لعبة جديدة</h2>
+        <form id="add-game-form">
+            <label for="game-name"></label>
+            <input type="text" id="game-name" required placeholder="أدخل اسم اللعبة">
+            <label for="game-price"></label>
+            <input type="number" id="game-price" required placeholder="أدخل سعر اللعبة">
+            <label for="game-description"></label>
+            <textarea id="game-description" placeholder="أدخل وصف اللعبة"></textarea>
+            <label for="game-status"></label>
+            <select id="game-status">
+                <option value="active">نشطة</option>
+                <option value="closed">مغلقة</option>
+                <option value="maintenance">تحت الصيانة</option>
+            </select>
+            <button type="submit">إضافة اللعبة</button>
+        </form>
+    </section>
+
+    <!-- المتجر لشراء الألعاب -->
+    <section class="store">
+        <h2>المتجر</h2>
+        <div class="store-items" id="store-items">
+            <!-- هنا سيتم إضافة الألعاب المضافة عبر المستخدم -->
+        </div>
+    </section>
+
+    <!-- الاشتراك الشهري مع العملة المحلية -->
+    <section class="subscription">
+        <h2>اشتراك شهري</h2>
+        <p>اشترك في المنصة للحصول على ميزات إضافية</p>
+        <p>المبلغ: <span id="subscription-price">10</span> روبوكس / شهر</p>
+        <button class="subscribe-btn">اشترك الآن</button>
+    </section>
+
+    <!-- الأخبار المهمة -->
+    <section class="news">
+        <h2>أخبار مهمة</h2>
+        <div class="news-item">
+            <h3>تحديثات جديدة في اللعبة 1!</h3>
+            <p>تم إضافة مستويات جديدة في اللعبة 1. استمتع بأحدث المغامرات!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>حقوق الطبع والنشر © 2024 - منصة الألعاب</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

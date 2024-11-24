@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff6a00;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.games-list {
+    margin-bottom: 50px;
+}
+
+.games-list h2 {
+    color: #333;
+    text-align: center;
+}
+
+.games-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.games-list li {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.games-list h3 {
+    color: #ff6a00;
+}
+
+.news-button {
+    background-color: #ff6a00;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.news-button:hover {
+    background-color: #e65c00;
+}
+
+.news-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+}
